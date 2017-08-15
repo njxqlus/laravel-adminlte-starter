@@ -56,7 +56,4 @@ desired effect
 
 @include('admin-lte.parts.main-sidebar')
 
-<!-- REQUIRED JS SCRIPTS -->
-@yield('scripts')
-
 @include('admin-lte.parts.html-footer')
