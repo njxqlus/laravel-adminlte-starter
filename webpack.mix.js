@@ -14,7 +14,9 @@ let mix = require('laravel-mix');
 mix
     .js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
+
     //admin-lte
-    .js('resources/assets/admin-lte/js/admin-lte.js', 'public/admin-lte/dist/js')
-    .sass('resources/assets/admin-lte/sass/admin-lte.scss', 'public/admin-lte/dist/css')
+    .copyDirectory('node_modules/admin-lte/bootstrap', 'public/admin-lte/bootstrap')
+    .copyDirectory('node_modules/admin-lte/dist', 'public/admin-lte/dist')
+    .copyDirectory('node_modules/admin-lte/plugins', 'public/admin-lte/plugins')
 ;
