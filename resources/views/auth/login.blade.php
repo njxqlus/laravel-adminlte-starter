@@ -1,6 +1,8 @@
-@extends('admin-lte.layouts.login')
+@extends('admin-lte.layouts.auth')
 
 @section('page-title', 'Login')
+
+@section('body-class', 'login-page')
 
 @section('css')
 

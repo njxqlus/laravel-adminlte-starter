@@ -1,6 +1,6 @@
 @include('admin-lte.parts.html-header')
 
-<body class="hold-transition login-page">
+<body class="hold-transition @yield('body-class')">
 
 @yield('content')
 

@@ -1,6 +1,8 @@
-@extends('admin-lte.layouts.register')
+@extends('admin-lte.layouts.auth')
 
 @section('page-title', 'Register')
+
+@section('body-class', 'register-page')
 
 @section('css')
 
