@@ -7,3 +7,5 @@ No any PHP. Only:
 - Create additional sass file and import AdminLTE css
 - Create additional js file and import here default bootstrap and AdminLTE js
 - Add js and css to webpack file
+
+Don't forget to `npm install admin-lte --save`
