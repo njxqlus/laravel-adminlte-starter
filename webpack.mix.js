@@ -12,10 +12,9 @@ let mix = require('laravel-mix');
  */
 
 mix
-	//main
     .js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
-    //cp
-    .js('resources/assets/js/cp.js', 'public/js')
-    .sass('resources/assets/sass/cp.scss', 'public/css')
+    //admin-lte
+    .js('resources/assets/admin-lte/js/admin-lte.js', 'public/admin-lte/dist/js')
+    .sass('resources/assets/admin-lte/sass/admin-lte.scss', 'public/admin-lte/dist/css')
 ;

@@ -1,4 +1,6 @@
-@extends('cp.layouts.default')
+@extends('admin-lte.layouts.default')
+
+@section('page-title', 'Control Panel')
 
 @section('page-header')
 

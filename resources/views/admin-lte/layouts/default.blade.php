@@ -1,4 +1,4 @@
-@include('cp.parts.html-header')
+@include('admin-lte.parts.html-header')
 <!--
 BODY TAG OPTIONS:
 =================
@@ -22,7 +22,7 @@ desired effect
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
-@include('cp.parts.header')
+@include('admin-lte.parts.header')
 
 <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -32,7 +32,7 @@ desired effect
 
             @yield('page-header')
 
-            @include('cp.parts.breadcrumbs')
+            @include('admin-lte.parts.breadcrumbs')
 
         </section>
 
@@ -47,16 +47,16 @@ desired effect
     </div>
     <!-- /.content-wrapper -->
 
-    @include('cp.parts.footer')
+    @include('admin-lte.parts.footer')
 
-    @include('cp.parts.control-sidebar')
+    @include('admin-lte.parts.control-sidebar')
 
 </div>
 <!-- ./wrapper -->
 
-@include('cp.parts.main-sidebar')
+@include('admin-lte.parts.main-sidebar')
 
 <!-- REQUIRED JS SCRIPTS -->
 @yield('scripts')
 
-@include('cp.parts.html-footer')
+@include('admin-lte.parts.html-footer')

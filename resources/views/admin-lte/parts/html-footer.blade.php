@@ -4,6 +4,6 @@
      fixed layout. -->
 
 <!-- Scripts -->
-<script src="{{ asset('js/cp.js') }}"></script>
+<script src="{{ asset('admin-lte/dist/js/admin-lte.js') }}"></script>
 </body>
 </html>
