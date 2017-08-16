@@ -4,6 +4,7 @@ Laravel AdminLTE starter.html integration
 ## Installation
 - Install admin-lte via npm `npm install admin-lte --save`
 - Copy content of src folder to your Laravel project folder
+- `npm run dev`
 
 ## What was done:
 
