@@ -135,7 +135,7 @@
                             <p>
                                 {{ Auth::user()->name }} - Web Developer
                                 <small>Member since
-                                    {{(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', Auth::user()->created_at)->toFormattedDateString())}}
+                                    {{ Auth::user()->created_at->toFormattedDateString() }}
                                 </small>
                             </p>
                         </li>
